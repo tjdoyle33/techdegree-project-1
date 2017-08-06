@@ -76,6 +76,20 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(15deg);
 }
+h2{
+  color: orange;
+}
+h4 {
+  line-height: .025;
+  color: #999999;
+}
+.experience {
+  text-align: center;
+  background: url('images/destroyed_wall.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 .tag {
   background-color: #efefef;
   color: black;
@@ -86,12 +100,22 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: #77881e;
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card_experience {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
